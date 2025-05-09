@@ -1,0 +1,19 @@
+.episodes ul {
+  display: grid;
+  gap: 1ch;
+  list-style-type: none;
+  padding: 0.25rem;
+}
+
+.episodes li {
+  padding: 1ch;
+  border-bottom: 1px solid #ccc;
+}
+
+.episodes li:hover {
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+}
